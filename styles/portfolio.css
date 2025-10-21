@@ -175,6 +175,7 @@ main{
     margin-top: 130px;
 }
 .text-center{
+    text-align: center;
     margin: 30px 200px;
 }
 
@@ -192,4 +193,64 @@ main{
 
 .skill-discription{
     color: rgba(117, 117, 117, 1);
+}
+
+
+/* resume styles */
+
+.resume{
+    margin-top: 130px;
+}
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.resume-column-title{
+    color: rgba(71, 71, 71, 1);
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.experience-title{
+    color: rgba(71, 71, 71, 1);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.experience-sub-title{
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.experience-discription{
+    color: rgba(117, 117, 117, 1);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 29px;
+}
+
+
+.resume-download-cv{
+    margin-top: 50px;
 }
