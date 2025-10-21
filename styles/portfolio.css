@@ -254,3 +254,44 @@ main{
 .resume-download-cv{
     margin-top: 50px;
 }
+
+/* footer style */
+footer{
+    padding: 80px 140px;
+    display: flex;
+    gap: 140px;
+    align-items: center;
+}
+.footer-title{
+    color: rgba(24, 24, 24, 1);
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+p{
+    color: rgba(71, 71, 71, 1);
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer-column{
+    width: 50%;
+}
+
+footer [type="text"], footer [type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 1);
+    display: block;
+    width: 100%;
+    padding: 2px;
+    border: none;
+    margin-bottom: 24px;
+
+}
+/* the footer end */
